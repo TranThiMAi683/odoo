@@ -1033,6 +1033,11 @@ msgstr ""
 "việc sửa chữa"
 
 #. module: repair
+#: model:ir.ui.menu,name:repair.repair_menu_order
+msgid "Repair Orders"
+msgstr "Lệnh sửa chữa"
+
+#. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__repaired
 #: model:ir.model.fields.selection,name:repair.selection__repair_order__state__done
 msgid "Repaired"

@@ -387,6 +387,8 @@
         <menuitem action="action_repair_order_tree" id="menu_repair_order" groups="stock.group_stock_user" name="Repairs" sequence="36"
             web_icon="repair,static/description/icon.png"/>
 
+		<menuitem id="repair_menu_order" name="Repair Orders" parent="menu_repair_order" action="action_repair_order_tree" groups="stock.group_stock_user" sequence="1"></menuitem>
+        
         <menuitem id="repair_menu_reporting" name="Reporting" parent="menu_repair_order" groups="stock.group_stock_manager"/>
 
         <menuitem id="repair_menu" name="Repairs" parent="repair_menu_reporting" action="action_repair_order_graph"/>
